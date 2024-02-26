@@ -70,10 +70,7 @@ a.jqte_tool_label.unselectable {
         <div class="toast-body text-white">
         </div>
       </div>
-      Certainly! It looks like you want to create a dropdown under the "Association" link with the items "Leadership" and "Testimonials". I've made the necessary adjustments to your code:
-
-
-<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="./"><?php echo $_SESSION['system']['name'] ?></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>

@@ -72,7 +72,7 @@ a.jqte_tool_label.unselectable {
       </div>
       Certainly! It looks like you want to create a dropdown under the "Association" link with the items "Leadership" and "Testimonials". I've made the necessary adjustments to your code:
 
-```html
+
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="./"><?php echo $_SESSION['system']['name'] ?></a>
@@ -86,6 +86,7 @@ a.jqte_tool_label.unselectable {
                             Association <i class="fa fa-angle-down"></i>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="associationDropdown">
+                            <a class="dropdown-item" href="index.php?page=association">Association</a>
                             <a class="dropdown-item" href="index.php?page=leadership">Leadership</a>
                             <a class="dropdown-item" href="index.php?page=testimonials">Testimonials</a>
                         </div>

@@ -80,8 +80,7 @@ a.jqte_tool_label.unselectable {
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
 						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Association</a></li>
-						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=association2">Association 2</a></li>
-						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">News</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=association2">Programs & Events</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Alumni</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=gallery">Gallery</a></li>
                         <?php if(isset($_SESSION['login_id'])): ?>
@@ -239,13 +238,14 @@ a.jqte_tool_label.unselectable {
               style="width: 60px; background-color: #000000; height: 5px"
               />
           <p>
-            <a href="#!" class="text-white">Professional Bodies</a>
+			<a href="https://www.wlv.ac.uk/" class="text-white">Visit Our Alma mater</a>
           </p>
           <p>
-            <a href="#!" class="text-white">...........</a>
+		  	<a href="https://www.wlv.ac.uk/news-and-events/latest-news/" class="text-white">News on Campus</a>
           </p>
-          <p>
-            <a href="#!" class="text-white">.........</a>
+          
+		  <p>
+		  
           </p>
           <p>
             <a href="#!" class="text-white">........</a>
@@ -262,10 +262,10 @@ a.jqte_tool_label.unselectable {
               style="width: 60px; background-color: #000000; height: 5px"
               />
           <p>
-            <a href="#!" class="text-white">Your Account</a>
+            <a href="https://www.bcs.org/" class="text-white">British Computer Society</a>
           </p>
           <p>
-            <a href="#!" class="text-white">Become an Affiliate</a>
+             <a href="https://www.jobs.ac.uk/search/computer-sciences" class="text-white">Job</a>
           </p>
           <p>
             <a href="#!" class="text-white">Shipping Rates</a>
@@ -303,9 +303,6 @@ a.jqte_tool_label.unselectable {
           </div> 
           <br>  
             <div class="container"><div class="small text-center text-muted">Copyright © 2024 - <?php echo $_SESSION['system']['name'] ?> | <a href="#" target="_blank">Alumni Project!!!!!!</a></div></div>
-        </footer>
-
-
         </footer>
         
        <?php include('footer.php') ?>

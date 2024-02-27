@@ -27,7 +27,3 @@
 
     <script type="text/javascript" src="admin/assets/js/jquery.datetimepicker.full.min.js"></script>
     <script type="text/javascript" src="admin/assets/js/jquery-te-1.4.0.min.js" charset="utf-8"></script>
-
-
-
-

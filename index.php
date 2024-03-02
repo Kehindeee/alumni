@@ -72,11 +72,15 @@ a.jqte_tool_label.unselectable {
       </div>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
+			
                 <a class="navbar-brand js-scroll-trigger" href="./"><?php echo $_SESSION['system']['name'] ?></a>
+				
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Association</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=association2">Programs & Events</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Alumni</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=gallery">Gallery</a></li>
                         <?php if(isset($_SESSION['login_id'])): ?>
@@ -120,7 +124,7 @@ a.jqte_tool_label.unselectable {
         <div id="delete_content"></div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" id='confirm' onclick="">Continue</button>
+        <button type="button" class="btn btn-primary" id='confirm' onClick="">Continue</button>
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
       </div>
@@ -135,7 +139,7 @@ a.jqte_tool_label.unselectable {
       <div class="modal-body">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" id='submit' onclick="$('#uni_modal form').submit()">Save</button>
+        <button type="button" class="btn btn-primary" id='submit' onClick="$('#uni_modal form').submit()">Save</button>
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
       </div>
       </div>
@@ -164,28 +168,141 @@ a.jqte_tool_label.unselectable {
     </div>
   </div>
   <div id="preloader"></div>
-        <footer class=" py-5">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="mt-0 text-white">Contact us</h2>
-                        <hr class="divider my-4" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                        <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-                        <div class="text-white"><?php echo $_SESSION['system']['contact'] ?></div>
-                    </div>
-                    <div class="col-lg-4 mr-auto text-center">
-                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                        <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                        <a class="d-block" href="mailto:<?php echo $_SESSION['system']['email'] ?>"><?php echo $_SESSION['system']['email'] ?></a>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - <?php echo $_SESSION['system']['name'] ?> | <a href="https://www.sourcecodester.com/" target="_blank">Sourcecodester</a></div></div>
+  
+<footer
+        class="text-center text-lg-start text-white"
+        style="background-color:  #1c2331"
+        >
+  <!-- Section: Social media -->
+  <section
+           class="d-flex justify-content-between p-4"
+           style="background-color: #3366FF"
+           >
+    <!-- Left -->
+    <div class="me-5">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="" style="background-color: #3366FF">
+  
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold">About Us</h6>
+          <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #000000; height: 5px"
+              />
+          <p>
+            More information about our Alumni page
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold">About the University</h6>
+          <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #000000; height: 5px"
+              />
+          <p>
+			<a href="https://www.wlv.ac.uk/" class="text-white">Visit Our Alma mater</a>
+          </p>
+          <p>
+		  	<a href="https://www.wlv.ac.uk/news-and-events/latest-news/" class="text-white">News on Campus</a>
+          </p>
+          
+		  <p>
+		  
+          </p>
+          <p>
+            <a href="#!" class="text-white">........</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold">Useful links</h6>
+          <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #000000; height: 5px"
+              />
+          <p>
+            <a href="https://www.bcs.org/" class="text-white">British Computer Society</a>
+          </p>
+          <p>
+             <a href="https://www.jobs.ac.uk/search/computer-sciences" class="text-white">Job</a>
+          </p>
+          <p>
+            <a href="#!" class="text-white">Shipping Rates</a>
+          </p>
+          <p>
+            <a href="#!" class="text-white">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold">Contact</h6>
+          <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #000000; height: 5px"
+              />
+          <p><i class="fas fa-home mr-3"></i> University of Welverhampton City Campus </p>
+          <p><i class="fas fa-envelope mr-3"></i> alumni@wlv.ac.uk</p>
+          <p><i class="fas fa-phone mr-3"></i> + 44 234 567 88</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+</footer>
+<!-- Footer -->
+
+
+
+          </div> 
+          <br>  
+            <div class="container"><div class="small text-center text-muted">Copyright © 2024 - <?php echo $_SESSION['system']['name'] ?> | <a href="#" target="_blank">Alumni Project!!!!!!</a></div></div>
         </footer>
         
        <?php include('footer.php') ?>

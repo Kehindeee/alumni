@@ -1,4 +1,7 @@
  <!-- Masthead -->
+ <?php 
+include 'admin/db_connect.php'; 
+?>
 <header class="masthead">
     <div class="container h-100">
         <div class="row h-100 align-items-center justify-content-center text-center">
@@ -19,7 +22,7 @@
         <div class="row">
             <div class="col-lg-4 col-sm-6">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="images/leader1.jpg" alt="Leader 1">
+                    <img class="mx-auto" src="/alumni/assets/img/alumni1.jpg" alt="Leader 1">
                     <h4>John Doe</h4>
                     <p class="text-muted">President</p>
                 </div>
@@ -27,7 +30,7 @@
             
             <div class="col-lg-4 col-sm-6">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="images/leader2.jpg" alt="Leader 2">
+                <img class="mx-auto" src="/alumni/assets/img/alumni1.jpg" alt="Leader 2">
                     <h4>Jane Smith</h4>
                     <p class="text-muted">Vice President</p>
                 </div>
@@ -35,7 +38,7 @@
             
             <div class="col-lg-4 col-sm-6">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="images/leader3.jpg" alt="Leader 3">
+                <img class="mx-auto" src="/alumni/assets/img/alumni1.jpg" alt="Leader 3">
                     <h4>Michael Johnson</h4>
                     <p class="text-muted">Secretary</p>
                 </div>
@@ -52,9 +55,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="testimonial">
-                    <img class="mx-auto rounded-circle" src="images/alumni1.jpg" alt="Alumni 1">
+                    <img class="mx-auto rounded-circle" src="/alumni/assets/img/alumni1.jpg" alt="Alumni 1">
                     <p class="lead">"Being a part of this alumni community has been an incredible journey. The support and connections I've made here have been invaluable in both my personal and professional life."</p>
-                    <h5 class="text-muted">John Doe, Class of 20XX</h5>
+                    <h5 class="text-muted">John Doe, Class of 2024</h5>
                 </div>
             </div>
         </div>
@@ -62,17 +65,17 @@
         <div class="row mt-4">
             <div class="col-lg-6">
                 <div class="testimonial">
-                    <img class="mx-auto rounded-circle" src="images/alumni2.jpg" alt="Alumni 2">
+                    <img class="mx-auto rounded-circle" src="/alumni/assets/img/alumni1.jpg" alt="Alumni 2">
                     <p class="lead">"The memories and friendships I forged during my time in this alma mater are everlasting. The alumni network continues to provide a sense of belonging and opportunities for growth."</p>
-                    <h5 class="text-muted">Jane Smith, Class of 20XX</h5>
+                    <h5 class="text-muted">Jane Smith, Class of 2024</h5>
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <div class="testimonial">
-                    <img class="mx-auto rounded-circle" src="images/alumni3.jpg" alt="Alumni 3">
+                    <img class="mx-auto rounded-circle" src="/alumni/assets/img/alumni1.jpg" alt="Alumni 3">
                     <p class="lead">"I'm proud to be an alum of this institution. The skills and knowledge gained here have been instrumental in shaping my career. The alumni events are always a highlight!"</p>
-                    <h5 class="text-muted">Michael Johnson, Class of 20XX</h5>
+                    <h5 class="text-muted">Michael Johnson, Class of 2024</h5>
                 </div>
             </div>
         <!-- Add content specific to the Testimonials section here -->

@@ -45,7 +45,7 @@ flex-direction: inherit;
     min-height: 50vh;
 }
 span.hightlight{
-    background: yellow;
+    background: red;
 }
 .banner{
    min-height: calc(100%)

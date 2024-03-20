@@ -51,7 +51,7 @@
     max-width: calc(100%);
   }
   body, footer {
-    background: #000000e6 !important;
+    background: #fff !important;
 }
  
 

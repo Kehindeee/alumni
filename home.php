@@ -24,7 +24,7 @@ span.hightlight{
     }
     .banner img{
         width: calc(100%);
-        height: calc(100%);
+        height: calc(100%)s;
         cursor :pointer;
     }
 .event-list{

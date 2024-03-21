@@ -153,10 +153,10 @@ $('#update_account').submit(function(e){
             if(resp == 1){
                 alert_toast("Account successfully updated.",'success');
                 setTimeout(function(){
-                 location.reload()
+                 window.location.href = "http://localhost:8080/alumni/index.php?page=home"; // Replace "home_page_url_here" with the URL of your home page
                 },700)
             }else{
-                $('#msg').html('<div class="alert alert-danger">email already exist.</div>')
+                $('#msg').html('<div class="alert alert-danger">Email already exists.</div>')
                 end_load()
             }
         }

@@ -79,7 +79,7 @@ a.jqte_tool_label.unselectable {
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
-						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Association</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=association">Association</a></li>
 						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=association2">Programs & Events</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Alumni</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=gallery">Gallery</a></li>

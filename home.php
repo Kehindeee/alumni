@@ -24,7 +24,7 @@ span.hightlight{
     }
     .banner img{
         width: calc(100%);
-        height: calc(100%);
+        height: calc(100%)s;
         cursor :pointer;
     }
 .event-list{
@@ -65,7 +65,17 @@ span.hightlight{
                 </div>
             </div>
         </header>
-            <div class="container mt-3 pt-2">
+		<marquee bgcolor="#FFFFFF" onMouseOver="this.stop()" onMouseOut="this.start()"><a href="https://www.wlv.ac.uk/news-and-events/latest-news/"><button style="background-color:#0066FF"> <font color="#FFFFFF">Latest News on Campus </font></a></marquee>
+		
+		<div style="background-color: #FFFFFF" align="left" class="container mt-3 pt-2">
+			<p><font color="#000000">Alumni & Development Office builds lifelong relationships with former students through a global community of 140,000 graduates from 130 countries worldwide.
+
+You can access a host of benefits and services, including a range of discounts, career support, mentoring, the opportunity to join social and professional networks, assistance in organising reunions and contacting classmates, and more.
+
+In addition, there is an extensive volunteer programme and numerous charitable donation opportunities, allowing graduates and supporters to give back through time, expertise and money, to support current students, the University and communities around the world. And remember, keep your details up to date with us........ <button class="btn btn-primary float-right read_more" ><a href="#!"><font color="#FFFFFF">Read More</font></a></button></font></p>
+		</div>
+        
+		    <div class="container mt-3 pt-2">
                 <h4 class="text-center text-white">Upcoming Events</h4>
                 <hr class="divider">
                 <?php

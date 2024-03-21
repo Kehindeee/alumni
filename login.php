@@ -27,7 +27,9 @@
 			<div class="text-left">
 				<button class="button btn btn-info btn-sm">Login</button>
 				<small><a href="index.php?page=signup" id="new_account">Create New Account</a></small>
+
 			</div>
+			<small><a href="index.php?page=guest" id="new_account">Create Guest Account</a></small>
 	</form>
 </div>
 

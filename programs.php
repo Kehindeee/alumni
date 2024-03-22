@@ -133,14 +133,15 @@
                         <h4>Jobs</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus incidunt quod, nihil minus architecto commodi, laborum odit quae harum nesciunt temporibus in rerum illum. Vero eligendi quod eos esse!</p>
                         <div class="mar"></div>
-                        <a href="#" class="ctn">More</a>
+                        <a href="#" class="ctn" onclick="redirectToSeminar()">More</a>
                     </div>
                     <div class="col">
                         <img src="./img1.jpg" alt="">
                         <h4>Seminars</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus incidunt quod, nihil minus architecto commodi, laborum odit quae harum nesciunt temporibus in rerum illum. Vero eligendi quod eos esse!</p>
                         <div class="mar"></div>
-                        <a href="#" class="ctn">More</a>
+                        <!-- <a href="#" class="ctn">More</a>-->
+                        <a href="about.php?" class="ctn">More</a>
                     </div>
                     <div class="col">
                         <img src="./img1.jpg" alt="">

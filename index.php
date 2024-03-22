@@ -63,6 +63,78 @@ a.jqte_tool_label.unselectable {
 a.jqte_tool_label.unselectable {
     height: 22px !important;
 }*/
+.footer {
+    text-align: center;
+    background-color: #1c2331;
+    color: white;
+    padding: 5px 0;
+}
+
+.links {
+    background-color: #3366FF;
+    padding: 50px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.column {
+    width: 25%;
+    text-align: left;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.section-divider {
+    width: 60px;
+    background-color: #000;
+    height: 5px;
+    margin: 0 auto;
+    border: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.social-media-right {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.social-media-link {
+    color: white;
+    text-decoration: none;
+    border-radius: 80%; /* Make the icons round */
+    padding: 5px; /* Add some padding for better appearance */
+}
+
+.social-media-link:hover {
+    color: black; /* Change color to black on hover */
+}
+.social-media-link i {
+    font-size: 15px; /* Adjust the size of the icon */
+}
+
+
+.foot {
+    font-size: 0.9rem;
+}
+
     </style>
     <body id="page-top">
         <!-- Navigation-->
@@ -168,134 +240,73 @@ a.jqte_tool_label.unselectable {
     </div>
   </div>
   <div id="preloader"></div>
+
+  <!--footer-->  
   
-<footer
-        class="text-center text-lg-start text-white"
-        style="background-color:  #1c2331"
-        >
-  <!-- Section: Social media -->
-  <section
-           class="d-flex justify-content-between p-4"
-           style="background-color: #3366FF"
-           >
-    <!-- Left -->
-    <div class="me-5">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    <!-- Left -->
-
-    <!-- Right -->
-    <div>
-      <a href="" class="text-white me-4">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="text-white me-4">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="text-white me-4">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="text-white me-4">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="text-white me-4">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="text-white me-4">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
-
-  <!-- Section: Links  -->
-  <section class="" style="background-color: #3366FF">
+  <footer class="footer">
+        <!-- Section: Links  -->
+        <section class="links">
+            <div class="container">
+                <!-- Grid row -->
+                <div class="row">
   
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold">About Us</h6>
-          <hr
-              class="mb-4 mt-0 d-inline-block mx-auto"
-              style="width: 60px; background-color: #000000; height: 5px"
-              />
-          <p>
-            More information about our Alumni page
-          </p>
-        </div>
-        <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="column">
+                        <!-- Links -->
+                        <h6 class="section-title">About the University</h6>
+                        <p class = "foot">Alumni</p>
+                        <p class = "foot"><a href="https://www.wlv.ac.uk/" class="link">Visit Our Alma mater</a></p>
+                        <p class = "foot"><a href="https://www.wlv.ac.uk/news-and-events/latest-news/" class="link">News on Campus</a></p>
+                    </div>
+                    <!-- Grid column -->
 
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold">About the University</h6>
-          <hr
-              class="mb-4 mt-0 d-inline-block mx-auto"
-              style="width: 60px; background-color: #000000; height: 5px"
-              />
-          <p>
-			<a href="https://www.wlv.ac.uk/" class="text-white">Visit Our Alma mater</a>
-          </p>
-          <p>
-		  	<a href="https://www.wlv.ac.uk/news-and-events/latest-news/" class="text-white">News on Campus</a>
-          </p>
-          
-		  <p>
-		  
-          </p>
-          <p>
-            <a href="#!" class="text-white">........</a>
-          </p>
-        </div>
-        <!-- Grid column -->
+                      <!-- Grid column -->
+                    <div class="column">
+                        <!-- Content -->
+                        <h6 class="section-title">Communities</h6>
+                        <p class = "foot">Student Union</p>
+                        <p class = "foot">Association</p>
+                    </div>
+                    <!-- Grid column -->
+        
+                    <!-- Grid column -->
+                    <div class="column">
+                        <!-- Links -->
+                        <h6 class="section-title">Useful links</h6>
+                        <p class = "foot"><a href="https://www.bcs.org/" class="link">British Computer Society</a></p>
+                        <p class = "foot"><a href="https://www.jobs.ac.uk/search/computer-sciences" class="link">Job</a></p>
+                        <p class = "foot"><a href="#" class="link">Shipping Rates</a></p>
+                        <p class = "foot"><a href="#" class="link">Help</a></p>
+                    </div>
+                    <!-- Grid column -->
+        
+                    <!-- Grid column -->
+                    <div class="column">
+                        <!-- Links -->
+                        <h6 class="section-title">Contact</h6>
+                        <p class = "foot"><i class="fas fa-envelope mr-2"></i> alumni@wlv.ac.uk</p>
+                        <p class = "foot"><i class="fas fa-phone mr-2"></i> +44 234 567 88</p>
+                        <div class="social-media-left">
+                        <a href="" class="social-media-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="social-media-link"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="social-media-link"><i class="fab fa-google"></i></a>
+                        <a href="" class="social-media-link"><i class="fab fa-instagram"></i></a>
+                        <a href="" class="social-media-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="" class="social-media-link"><i class="fab fa-github"></i></a>
+                      </div>
+                    </div>
+                    <!-- Grid column -->
 
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold">Useful links</h6>
-          <hr
-              class="mb-4 mt-0 d-inline-block mx-auto"
-              style="width: 60px; background-color: #000000; height: 5px"
-              />
-          <p>
-            <a href="https://www.bcs.org/" class="text-white">British Computer Society</a>
-          </p>
-          <p>
-             <a href="https://www.jobs.ac.uk/search/computer-sciences" class="text-white">Job</a>
-          </p>
-          <p>
-            <a href="#!" class="text-white">Shipping Rates</a>
-          </p>
-          <p>
-            <a href="#!" class="text-white">Help</a>
-          </p>
-        </div>
-        <!-- Grid column -->
+                    <!-- Social media -->
 
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold">Contact</h6>
-          <hr
-              class="mb-4 mt-0 d-inline-block mx-auto"
-              style="width: 60px; background-color: #000000; height: 5px"
-              />
-          <p><i class="fas fa-home mr-3"></i> University of Welverhampton City Campus </p>
-          <p><i class="fas fa-envelope mr-3"></i> alumni@wlv.ac.uk</p>
-          <p><i class="fas fa-phone mr-3"></i> + 44 234 567 88</p>
-        </div>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
-    </div>
-  </section>
-  <!-- Section: Links  -->
+                    <!-- Social media -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+    </footer>
 
-</footer>
 <!-- Footer -->
 
 

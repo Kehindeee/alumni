@@ -294,6 +294,7 @@ a.jqte_tool_label.unselectable {
     </div>
   </section>
   <!-- Section: Links  -->
+  <!-- ... -->
 
 </footer>
 <!-- Footer -->

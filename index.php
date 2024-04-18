@@ -153,6 +153,8 @@ a.jqte_tool_label.unselectable {
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
 						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Association</a></li>
 						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=programs">Programs & Events</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=association">Association</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=association2">Programs & Events</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Alumni</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=gallery">Gallery</a></li>
                         <?php if(isset($_SESSION['login_id'])): ?>

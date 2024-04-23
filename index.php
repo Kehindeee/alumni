@@ -3,6 +3,7 @@
     <?php
     session_start();
     include('admin/db_connect.php');
+    require_once('cookie_script.php');
     ob_start();
         $query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
          foreach ($query as $key => $value) {
@@ -14,7 +15,6 @@
 
 	
     ?>
-
     <style>
     	header.masthead {
 		  background: url(admin/assets/uploads/<?php echo $_SESSION['system']['cover_img'] ?>);
@@ -80,7 +80,7 @@ a.jqte_tool_label.unselectable {
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
 						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=association">Association</a></li>
-						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=association2">Programs & Events</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=programs">Programs & Events</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Alumni</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=gallery">Gallery</a></li>
                         <?php if(isset($_SESSION['login_id'])): ?>

@@ -1,4 +1,5 @@
 <?php 
+require_once('cookie_script.php');
 include 'admin/db_connect.php'; 
 ?>
 <style>

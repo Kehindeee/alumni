@@ -14,4 +14,4 @@
     <div class="container">
         <p style="text-align: justify;">The University of Wolverhampton Computer Science Alumni System connects graduates to an extensive network, offering resources for continuous learning and professional development. This system enables alumni to stay engaged with the latest industry trends through webinars, mentorship, and networking events. It also provides job placement services, linking graduates with potential employers and new career opportunities. By fostering a community of informed and connected professionals, the University of Wolverhampton continues to support and enhance the careers of its computer science alumni.</p>
     </div>
-</section>s
+</section>

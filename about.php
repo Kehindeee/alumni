@@ -1,90 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upcoming Seminars</title>
-    <style>
-        /* Styling for JSON data */
-        .contact-list {
-            list-style: none;
-            padding: 0;
-        }
-        
-        .contact-item {
-            margin-bottom: 20px;
-            border-radius: 8px;
-            background-color: #f8f9fa; /* Background color for the box */
-            border: 1px solid #ced4da; /* Border color */
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
-        }
-        
-        .contact-item strong {
-            color: #333;
-        }
-        
-        /* Apply hover effect to seminar links */
-        .contact-item a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        
-        .contact-item a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <!-- Masthead -->
-    <header class="masthead">
-        <div class="container">
-            <h1 class="text-uppercase">Upcoming Seminars</h1>
-            <hr class="divider">
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10 align-self-end mb-4" style="background: #0000002e;">
+                <h1 class="text-uppercase text-white font-weight-bold">About Us</h1>
+                <hr class="divider my-4" />
+            </div>
         </div>
-    </header>
+    </div>
+</header>
 
-    <!-- Contact Information Section -->
-    <section class="page-section">
-        <div class="container">
-            <h2>Contact Information</h2>
-            <ul class="contact-list" id="contactList"></ul>
-        </div>
-    </section>
-
-    <!-- Fetching Data from API -->
-    <script>
-        // Fetch data from the API
-        fetch('seminar.json')
-            .then(response => {
-                // Check if the response is successful
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                // Parse JSON data from the response
-                return response.json();
-            })
-            .then(data => {
-                // Display contact information
-                const contactList = document.getElementById('contactList');
-                data.forEach(seminar => {
-                    const listItem = document.createElement('li');
-                    listItem.classList.add('contact-item'); // Add class to the list item
-                    listItem.innerHTML = `
-                        <strong>Seminar:</strong> ${seminar.seminar}<br>
-                        <strong>Speaker:</strong> ${seminar.speaker}<br>
-                        <strong>Email:</strong> ${seminar.email}<br>
-                        <strong>Phone:</strong> ${seminar.phone}<br>
-                        <strong>Website:</strong> <a href="${seminar.website}" target="_blank">${seminar.website}</a><br>
-                        <hr>
-                    `;
-                    contactList.appendChild(listItem);
-                });
-            })
-            .catch(error => {
-                // Display error if fetching data fails
-                console.error('Error fetching data:', error);
-            });
-    </script>
-</body>
-</html>
+<section class="page-section" style="background-color: white;">
+    <div class="container">
+        <p style="text-align: justify;">The University of Wolverhampton Computer Science Alumni System connects graduates to an extensive network, offering resources for continuous learning and professional development. This system enables alumni to stay engaged with the latest industry trends through webinars, mentorship, and networking events. It also provides job placement services, linking graduates with potential employers and new career opportunities. By fostering a community of informed and connected professionals, the University of Wolverhampton continues to support and enhance the careers of its computer science alumni.</p>
+    </div>
+</section>

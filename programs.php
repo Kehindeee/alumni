@@ -129,26 +129,26 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="./img1.jpg" alt="">
+                        <img src="./img6.jpg" alt="">
                         <h4>Jobs</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus incidunt quod, nihil minus architecto commodi, laborum odit quae harum nesciunt temporibus in rerum illum. Vero eligendi quod eos esse!</p>
+                        <p>Explore diverse career opportunities across industries. Find job openings, career advice, and resources to enhance your skills and advance your professional journey efficiently.</p>
                         <div class="mar"></div>
-                        <a href="#" class="ctn" onclick="redirectToSeminar()">More</a>
+                        <a href="https://www.wlv.ac.uk/current-students/careers-enterprise-and-the-workplace/careers/" class="ctn" onclick="redirectToSeminar()">More</a>
                     </div>
                     <div class="col">
-                        <img src="./img1.jpg" alt="">
+                        <img src="./img3.jpg" alt="">
                         <h4>Seminars</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus incidunt quod, nihil minus architecto commodi, laborum odit quae harum nesciunt temporibus in rerum illum. Vero eligendi quod eos esse!</p>
+                        <p>Delve into varied seminar topics across disciplines. Discover engaging content, expert insights, and resources to expand your knowledge and spur intellectual growth in your academic or professional path.</p>
                         <div class="mar"></div>
                         <!-- <a href="#" class="ctn">More</a>-->
-                        <a href="about.php?" class="ctn">More</a>
+                        <a href="seminar1.php?" class="ctn">More</a>
                     </div>
                     <div class="col">
-                        <img src="./img1.jpg" alt="">
+                        <img src="./img7.jpg" alt="">
                         <h4>Training</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus incidunt quod, nihil minus architecto commodi, laborum odit quae harum nesciunt temporibus in rerum illum. Vero eligendi quod eos esse!</p>
+                        <p>Engage in training programs tailored to boost skills and knowledge. Access practical resources, expert guidance, and hands-on experiences to excel in your personal and professional endeavors.</p>
                         <div class="mar"></div>
-                        <a href="#" class="ctn">More</a>
+                        <a href="https://imetatraining.co.uk/?gclid=CjwKCAjwuJ2xBhA3EiwAMVjkVKY7JEoxlAj5mG1DB8gQUqjoJaBJAq4upNczuz-D5FlNM_gybrP4IBoCYgYQAvD_BwE" class="ctn">More</a>
                     </div>
                 </div>
             </section>

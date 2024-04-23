@@ -34,7 +34,9 @@
 		max-height: calc(100%)!important;
 		max-width: calc(100%)!important;
 	}
-</style>
+</style>section {
+    background: #fff;
+}
 
 <div class="containe-fluid">
 	<div class="row mt-3 ml-3 mr-3">

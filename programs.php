@@ -141,14 +141,14 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus incidunt quod, nihil minus architecto commodi, laborum odit quae harum nesciunt temporibus in rerum illum. Vero eligendi quod eos esse!</p>
                         <div class="mar"></div>
                         <!-- <a href="#" class="ctn">More</a>-->
-                        <a href="seminar1.php?" class="ctn">More</a>
+                        <a href="programs1.php?" class="ctn">More</a>
                     </div>
                     <div class="col">
                         <img src="./img1.jpg" alt="">
                         <h4>Training</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus incidunt quod, nihil minus architecto commodi, laborum odit quae harum nesciunt temporibus in rerum illum. Vero eligendi quod eos esse!</p>
                         <div class="mar"></div>
-                        <a href="seminar1.php?" class="ctn">More</a>
+                        <a href="index.php?page=about" class="ctn">More</a>
                     </div>
                 </div>
             </section>

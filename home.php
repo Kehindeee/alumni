@@ -67,12 +67,15 @@ span.hightlight{
         </header>
 		<marquee bgcolor="#FFFFFF" onMouseOver="this.stop()" onMouseOut="this.start()"><a href="https://www.wlv.ac.uk/news-and-events/latest-news/"><button style="background-color:#0066FF"> <font color="#FFFFFF">Latest News on Campus </font></a></marquee>
 		
-		<div style="background-color: #FFFFFF" align="left" class="container mt-3 pt-2">
-			<p><font color="#000000">Alumni & Development Office builds lifelong relationships with former students through a global community of 140,000 graduates from 130 countries worldwide.
-
-You can access a host of benefits and services, including a range of discounts, career support, mentoring, the opportunity to join social and professional networks, assistance in organising reunions and contacting classmates, and more.
-
-In addition, there is an extensive volunteer programme and numerous charitable donation opportunities, allowing graduates and supporters to give back through time, expertise and money, to support current students, the University and communities around the world. And remember, keep your details up to date with us........ <button class="btn btn-primary float-right read_more" ><a href="#!"><font color="#FFFFFF">Read More</font></a></button></font></p>
+		<div style="background-color: #FFFFFF" align="justify" class="container mt-3 pt-2">
+			<p><font color="#000000">Welcome Home, University of Wolverhampton Alumni!<br><br>
+Whether you graduated recently or decades ago, this is your virtual homecoming, a place where memories thrive, connections endure, and the spirit of Wolverhampton lives on.
+Within these digital halls, you'll find a treasure trove of nostalgia, from class photos to campus tales, all woven into the rich tapestry of our shared history. But this isn't just a stroll down memory lane; it's an invitation to forge new pathways, to reconnect with old friends and mentors, and to discover opportunities that await within our ever-expanding alumni network.
+As we embark on this journey together, let's celebrate our achievements, support one another's endeavors, and continue to uphold the values that define us as University of Wolverhampton alumni.
+So, whether you're here to reminisce, to network, or simply to stay connected, welcome back to your alma mater. Together, let's continue to inspire, to innovate, and to make a difference in the world.
+Once a University of Wolverhampton Wolf, always a Wolf!
+Warm regards,
+ <!--<button class="btn btn-primary float-right read_more" ><a href="#!"><font color="#FFFFFF">Read More</font></a></button></font></p>-->
 		</div>
         
 		    <div class="container mt-3 pt-2">

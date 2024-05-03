@@ -139,7 +139,7 @@ strong {
 }
 
 small {
-  font-size: 80%;
+  font-size: 100%;
 }
 
 sub,
@@ -10245,11 +10245,11 @@ div#menu-field img, div#menu-field .menu-item-details {
    overflow: hidden;
    text-overflow: ellipsis;
    display: -webkit-box;
-   -webkit-line-clamp: 3; 
+   -webkit-line-clamp: 3;
    -webkit-box-orient: vertical;
-    font-size: small;
-    color: #000000cf;
-    font-style: italic;
+   font-size: small;
+   color: #000000cf;
+   font-style: italic;
 }
 .modal-dialog.modal-full-height.modal-md {
     position: absolute;
